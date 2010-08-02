@@ -1,0 +1,37 @@
+*** CURRENTLY FOR 1.12A ONLY ***
+
+Welcome to the new MercMod
+
+Customize what equipment mercinaries can equip,
+including all weapons, armor, rings, and amulets.
+
+Features:
+	* Dual wielding
+	* Class-specific items
+	* Fine-grained control over all equipment
+	* No lost items
+	* Automatic patching of inventory.bin in-memory
+	* Loads graphics even without -direct
+
+Install:
+	* Copy mercmod.dll and mercmod.mpq to your game or mod dir
+	* Load mercmod.dll with a loader (PlugY, etc)
+
+Uninstall:
+	* Unequip dual-wielded items before playing without mercmod, or
+	  you will lose one of the items.
+	* Don't load mercmod.dll.
+	* Delete mercmod.mpq if you are using -direct
+
+Configure: (Not required)
+	* Copy mercmod.ini to your game or mod dir
+	* Edit as needed
+
+Known bugs:
+	* Forced player dual wielding doesn't work right.
+	* Mercs who dual wield don't appear to use both weapons.
+
+Site:
+	http://zenthought.org/project/diablo2
+
+- zinx <zinx@zenthought.org>
