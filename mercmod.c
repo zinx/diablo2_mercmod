@@ -306,6 +306,9 @@ STDCALL int merc_inventory_mpq_load(void)
 	if (!merc_load_image_mpq)
 		return 1;
 
+	if (merc_mpq)
+		return 1;
+
 	if (SFileOpenArchive(MPQ_NAME, 6100, 2, &merc_mpq)) {
 		LOG("Loaded \""MPQ_NAME"\" from current directory");
 		return 1;
