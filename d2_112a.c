@@ -17,7 +17,7 @@ extern void merc_check_item_client_112a();
 extern void merc_check_item_client_drop_112a();
 
 void *original_merc_check_item_compat_112a;
-void *merc_inventory_mpq_load_112a;
+extern void merc_inventory_mpq_load_112a();
 
 #define HEADER <d2_112a_client.h>
 #define NAME d2client_112a
